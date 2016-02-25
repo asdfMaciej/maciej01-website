@@ -119,9 +119,17 @@ p {
 		min-height: 0px;
 	}
 }
-@media screen and (min-width: 1081px) and (max-width: 1380px) {
+@media screen and (min-width: 1081px) and (max-width: 1250px) {
 	.nav {
-		font-size: 17px;
+		font-size: 14px;
+	}
+	.maincontainer {
+		width: 90%;
+	}
+}
+@media screen and (min-width: 1251px) and (max-width: 1450px) {
+	.nav {
+		font-size: 15px;
 	}
 	.maincontainer {
 		width: 90%;

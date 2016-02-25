@@ -116,6 +116,12 @@ li a:hover {
 	background: -webkit-linear-gradient(left, #9B2F5B 0%,,#B9527C 95%,#e6e6fa 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, #9B2F5B 0%,#B9527C 95%,#e6e6fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
 @media screen and (max-width: 1080px) { /* mobile versions and smaller browsers */
 	.maincontainer {
 		width: 100%;
@@ -140,6 +146,14 @@ li a:hover {
 		height: auto;
 		width: auto;
 		min-height: 0px;
+	}
+	li a:hover {
+		background: none;
+		background-color: #B9527C;
+	}
+	ul {
+		background: none;
+		background-color: #E9AEC6;
 	}
 }
 @media screen and (min-width: 1081px) and (max-width: 1250px) {

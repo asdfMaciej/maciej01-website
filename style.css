@@ -75,6 +75,7 @@ body {
     background-image: url("text-bg.png"), -moz-linear-gradient(left, #e6e6fa 1%, #cacaf7 100%); /* FF3.6-15 */
 	background-image: url("text-bg.png"), -webkit-linear-gradient(left, #e6e6fa 1%,#cacaf7 100%); /* Chrome10-25,Safari5.1-6 */
 	background-image: url("text-bg.png"), linear-gradient(to right, #e6e6fa 1%,#cacaf7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	overflow: auto;
 
 }
 .sectionfull {
@@ -92,8 +93,27 @@ body {
 #textnav { /* god works in mysterious ways */
 	padding:0.1px;
 }
-p {
-	text-indent: 5em;
+.gallery { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+.galleryimg { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 360px; 
+  margin: .5vw; 
+}
+img { 
+  width: 100%; 
+  height: auto; 
 }
 ul {
 	line-height: normal;
@@ -122,6 +142,7 @@ hr {
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+
 @media screen and (max-width: 1080px) { /* mobile versions and smaller browsers */
 	.maincontainer {
 		width: 100%;
@@ -146,6 +167,7 @@ hr {
 		height: auto;
 		width: auto;
 		min-height: 0px;
+		overflow: auto;
 	}
 	li a:hover {
 		background: none;
@@ -154,6 +176,12 @@ hr {
 	ul {
 		background: none;
 		background-color: #E9AEC6;
+	}
+	.galleryimg {
+		margin: 0;
+	}
+	.gallery {
+		padding: 0;
 	}
 }
 @media screen and (min-width: 1081px) and (max-width: 1250px) {

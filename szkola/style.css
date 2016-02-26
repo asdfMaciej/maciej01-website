@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 h1 {
 	text-align: center;
+	font-family: 'Roboto Slab', 'Segoe UI Light';
 }
 body {
 	background-color: #83A522;
@@ -16,7 +19,7 @@ body {
 	width: 100%;
 	position: relative;
 	word-wrap: break-word;
-	font-family: 'Segoe UI Semibold';
+	font-family: 'Roboto Slab', 'Segoe UI Semibold';
 	font-size: 30px;
 	min-width: 720px;
 	overflow: auto;
@@ -57,17 +60,21 @@ body {
     top: 0px;
     left: 0px;
     min-height: 1000px;
-    font-family: 'Segoe UI Light';
+    font-family: 'Roboto Slab', 'Segoe UI Light';
 	background: -moz-linear-gradient(left, #B9527C 0%, #DB83A7 95%, #e6e6fa 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, #B9527C 0%,,#DB83A7 95%,#e6e6fa 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, #B9527C 0%,#DB83A7 95%,#e6e6fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
+.nav a {
+	font-family: 'Segoe UI Light';
+	font-size: 22px;
+}
 .section, .sectionfull {
 	background-color: #e6e6fa;
 	height: 100%;
 	width: 80%;
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans', 'Segoe UI Light';
     font-size: 25px;
     position: relative;
     float: right;
@@ -94,22 +101,22 @@ body {
 	padding:0.1px;
 }
 .gallery { 
-  padding: .5vw;
-  font-size: 0;
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap; 
-  flex-flow: row wrap; 
-  display: -webkit-box;
-  display: flex;
+	padding: .5vw;
+	font-size: 0;
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: column;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	display: -webkit-box;
+	display: flex;
 }
 .galleryimg { 
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto; 
-  width: 360px; 
-  margin: .5vw; 
+	-webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto;
+	width: 360px;
+	margin: .5vw;
 }
 img { 
   width: 100%; 

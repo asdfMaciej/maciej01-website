@@ -143,6 +143,13 @@ li a:hover {
 	background: -webkit-linear-gradient(left, #9B2F5B 0%,,#B9527C 95%,#e6e6fa 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, #9B2F5B 0%,#B9527C 95%,#e6e6fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+#active {
+	background-color: #811B65;
+	color: #FFF;
+	background: -moz-linear-gradient(left, #65174F 0%, #82306B 95%, #e6e6fa 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #65174F 0%,,#82306B 95%,#e6e6fa 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #65174F 0%,#82306B 95%,#e6e6fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 hr {
     border: 0;
     height: 1px;
@@ -183,6 +190,13 @@ hr {
 	ul {
 		background: none;
 		background-color: #E9AEC6;
+	}
+	#active {
+		background-color: #811B65;
+		color: #FFF;
+		background: -moz-linear-gradient(left, #65174F 0%, #82306B 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #65174F 0%,,#82306B 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #65174F 0%,#82306B 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	}
 	.galleryimg {
 		margin: 0;

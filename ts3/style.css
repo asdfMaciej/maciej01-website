@@ -143,6 +143,17 @@ li a:hover {
 	background: -webkit-linear-gradient(left, #9B2F5B 0%,,#B9527C 95%,#e6e6fa 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, #9B2F5B 0%,#B9527C 95%,#e6e6fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+.section li a {
+	background: -moz-linear-gradient(left, #e6e6fa 0%, #A1A1E8 1.5%, #7878D1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #e6e6fa 0%,,#A1A1E8 1.5%,#7878D1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #e6e6fa 0%,#A1A1E8 1.5%,#7878D1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.section li a:hover {
+	background: -moz-linear-gradient(left, #e6e6fa 0%, #5656B9 1.5%, #3B3BA3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #e6e6fa 0%,,#5656B9 1.5%,#3B3BA3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #e6e6fa 0%,#5656B9 1.5%,#3B3BA3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: #FFF;
+}
 #active {
 	background-color: #811B65;
 	color: #FFF;
@@ -208,6 +219,11 @@ hr.list:before { /* Not really supposed to work, but does */
 	ul {
 		background: none;
 		background-color: #E9AEC6;
+	}
+	.section li a {
+		background: -moz-linear-gradient(left, #A1A1E8 0%, #7878D1 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, ,#A1A1E8 0%, #7878D1 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #A1A1E8 0%, #7878D1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	}
 	#active {
 		background-color: #811B65;
